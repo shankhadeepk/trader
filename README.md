@@ -19,7 +19,7 @@ The application provides resources to add and check trades
 ## Execution
 Application can be started by following commands
 
-### Build the project
+###Build the project
     mvn clean install
 
 ### Run the test cases
@@ -62,3 +62,8 @@ Application can be started by following commands
             "expired": "N"
         }
     ]
+
+## Test Case Class Created
+
+    com.trade.trader.resource.TraderResourceTest
+    com.trade.trader.resource.TraderScheduledJobTest
