@@ -19,7 +19,7 @@ The application provides resources to add and check trades
 ## Execution
 Application can be started by following commands
 
-###Build the project
+### Build the project
     mvn clean install
 
 ### Run the test cases
@@ -62,6 +62,10 @@ Application can be started by following commands
             "expired": "N"
         }
     ]
+### Scheduler is configured to run every day by 11:50 PM to update the Expiry Flag
+    
+    applicatin.properties
+    trade.expiring.interval=0 50 23 1/1 * ?
 
 ## Test Case Class Created
 
